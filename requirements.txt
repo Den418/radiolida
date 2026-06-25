@@ -3,7 +3,7 @@
 
 # Telegram-клиент (бот и юзербот)
 Pyrogram==2.0.106
-TgCrypto                # Ускорение шифрования (обязательно!)
+TgCrypto
 
 # Голосовые чаты (PyTgCalls >= 0.9 — новый API)
 # Если старая версия: pip install -U pytgcalls
