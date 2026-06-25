@@ -5,9 +5,10 @@
 Pyrogram==2.0.106
 TgCrypto
 
+
 # Голосовые чаты (PyTgCalls >= 0.9 — новый API)
 # Если старая версия: pip install -U pytgcalls
-PyTgCalls==3.0.0.dev9
+PyTgCalls==2.1.0
 
 # Скачивание аудио с YouTube и других платформ
 yt-dlp
