@@ -1,0 +1,19 @@
+# RadioPlayerV3 — зависимости
+# Установка: pip install -r requirements.txt
+
+# Telegram-клиент (бот и юзербот)
+Pyrogram==2.0.106
+TgCrypto                # Ускорение шифрования (обязательно!)
+
+# Голосовые чаты (PyTgCalls >= 0.9 — новый API)
+# Если старая версия: pip install -U pytgcalls
+PyTgCalls>=0.9.0
+
+# Скачивание аудио с YouTube и других платформ
+yt-dlp
+
+# Загрузка .env файла
+python-dotenv
+
+# Управление Heroku (только если деплоишь на Heroku)
+heroku3
